@@ -13,6 +13,7 @@
 		79C68CD726797B65001381EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C68CD526797B65001381EB /* Main.storyboard */; };
 		79C68CD926797B66001381EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C68CD826797B66001381EB /* Assets.xcassets */; };
 		79C68CDC26797B66001381EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C68CDA26797B66001381EB /* LaunchScreen.storyboard */; };
+		79C68CE9267B5495001381EB /* warabi.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C68CE8267B5495001381EB /* warabi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		79C68CD826797B66001381EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C68CDB26797B66001381EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C68CDD26797B66001381EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C68CE8267B5495001381EB /* warabi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warabi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				79C68CCF26797B65001381EB /* AppDelegate.swift */,
 				79C68CD126797B65001381EB /* SceneDelegate.swift */,
 				79C68CD326797B65001381EB /* ViewController.swift */,
+				79C68CE8267B5495001381EB /* warabi.png */,
 				79C68CD526797B65001381EB /* Main.storyboard */,
 				79C68CD826797B66001381EB /* Assets.xcassets */,
 				79C68CDA26797B66001381EB /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			files = (
 				79C68CDC26797B66001381EB /* LaunchScreen.storyboard in Resources */,
 				79C68CD926797B66001381EB /* Assets.xcassets in Resources */,
+				79C68CE9267B5495001381EB /* warabi.png in Resources */,
 				79C68CD726797B65001381EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.addSubViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.addSubViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
