@@ -34,5 +34,12 @@ class ViewController: UIViewController {
         for view in warabiAppendView {
             view.removeFromSuperview()
         }
+
+        //Qiitaで教えていただいたコードでも、warabiImageViewをaddSubviewしたのを一括で削除できました。
+//        for view in self.view.subviews {
+//            if view is UIImageView {
+//                view.removeFromSuperview()
+//            }
+//        }
     }
 }
