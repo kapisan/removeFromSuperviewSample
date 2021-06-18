@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private var sampleView: UIView?
     private var warabiAppendView = [UIImageView]()
 
     var x = 0
